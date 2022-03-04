@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { partial } from '../../lib/utils';
 
+
 export const TodoItem = props => { 
     const hangleToggle = partial(props.handleToggle, props.id)
     const handleRemove = partial(props.handleRemove, props.id)
@@ -16,7 +17,7 @@ export const TodoItem = props => {
                 />
                 {props.name}
             </label> 
-            <a href="#" title="Remove Todo" onClick={handleRemove}>x</a>    
+            <a href="" title="Remove Todo" onClick={handleRemove}>x</a>    
             </li>
     )
 }

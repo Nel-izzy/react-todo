@@ -11,9 +11,9 @@ class App extends Component {
     currentTodo: "",
     errorMessage: "",
     todos: [
-      { id: 1, name: 'Learn JSX', isComplete: false },
-      { id: 2, name: 'Build an Awesome App', isComplete: false },
-      { id: 3, name: 'Ship it!', isComplete: true }
+      { id: 1, name: 'Learn Nextjs', isComplete: false },
+      { id: 2, name: 'Practice GraphQl', isComplete: false },
+      { id: 3, name: 'Understand Blockchain', isComplete: true }
     ]
   }
 
