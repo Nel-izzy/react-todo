@@ -12,7 +12,7 @@ class App extends Component {
     errorMessage: "",
     todos: [
       { id: 1, name: 'Learn Nextjs', isComplete: false },
-      { id: 2, name: 'Practice GraphQl', isComplete: false },
+      { id: 2, name: 'Practice GraphQL', isComplete: false },
       { id: 3, name: 'Understand Blockchain', isComplete: true }
     ]
   }
